@@ -1,11 +1,12 @@
 # web
 webview 一些权限整理
+
+
         //应用缓存API是否可用，默认值false, 结合setAppCachePath(String)使用。
         s.setAppCacheEnabled(true);
         //设置应用缓存文件的路径。
         s.setAppCachePath("");
-
-
+        
         // 设置是否允许通过 file url 加载的 Javascript 可以访问其他的源(包括http、https等源)
         //4.1以后默认禁止
         s.setAllowUniversalAccessFromFileURLs(false);
